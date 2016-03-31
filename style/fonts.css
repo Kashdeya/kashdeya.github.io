@@ -33,7 +33,7 @@ h2 {
 	font-weight: bold;
 	font-size: 3em;
 	line-height: 1;
-	margin-top: 0.5em;
+	margin-top: 0.1em;
 	margin-bottom: 0.5em;
 }
 
@@ -74,8 +74,8 @@ p, ul, ol, li, blockquote, pre, code, label,
 	address, dl, dialog, caption,
 	table, td, th {
 	font-size: 1em;
-	line-height: 1.5;
-	margin-bottom: 1.5em;
+	line-height: 1.0;
+	margin-bottom: 0.5em;
 }
 
 caption, br {
@@ -85,7 +85,7 @@ caption, br {
 a.block {
 	display:block;
 	line-height: 1.5;
-	margin-bottom: 1.5em;
+	margin-bottom: 1.0em;
 }
 
 span.amp {

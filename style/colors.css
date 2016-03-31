@@ -24,7 +24,7 @@ a {
 }
 
 	a:hover {
-		text-decoration: underline;
+		text-decoration: none;
 	}
 
 	a:visited {
@@ -67,19 +67,23 @@ a {
 }
 
 	#nav ul li a.hover {
-		color: #fff;
+		color: #fcf2e2;
+		text-decoration: none;
 	}
 	#nav ul li a.active {
-		border-top: 4px solid #fcf2e2;
+		color: #fcf2e2;
+		text-decoration: none;
 		/*color: #fff;*/
 	}
 		
 	#nav ul li a.active span {
+		color: #fcf2e2;
 		display: none;
 	}
 	
 	#nav ul li a span {
-		color: #ffe185;
+		color: #fcf2e2;
+		text-decoration: none;
 	}
 	
 /*homepage roundabout project link*/
@@ -92,36 +96,36 @@ a {
 	}
 	
 /*global button (.btn) & pager buttons*/
-#portfolio ul.pager li a,	
+#projects ul.pager li a,	
 a.btn {
 	color: #fff;
 	background-color: #69003f;
 }
 
-	#portfolio ul.pager li a:hover,
+	#projects ul.pager li a:hover,
 	a.btn:hover {
 		background-color: #b1006a;
 	}
 	
-	#portfolio ul.pager li a.active,
-	#portfolio ul.nav li a.active {
+	#projects ul.pager li a.active,
+	#projects ul.nav li a.active {
 		background-color: #2c002e;
 	}
 
-/*portfolio detail*/
-.portfolio-detail .main-image img {
+/*projects detail*/
+.projects-detail .main-image img {
 	outline: 1px solid #fff;
 }
 
 	/*sliding caption background*/
-	.portfolio-detail ul.items li a span.caption,
-	#portfolio ul.items li a span.caption  {
+	.projects-detail ul.items li a span.caption,
+	#projects ul.items li a span.caption  {
 		background: #2c002e;
 	}
 	
 	/*sliding caption text*/
-	.portfolio-detail ul.items li a span.text,
-	#portfolio ul.items li a span.text  {	
+	.projects-detail ul.items li a span.text,
+	#projects ul.items li a span.text  {	
 		color: #fff;
 		text-shadow: 1px 1px 1px #444;
 	}
