@@ -1,0 +1,136 @@
+#about .testimonials blockquote p {
+	/*A modern Georgia-based serif stack:*/
+	font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+
+/*
+	rhythm: 12/18 px,
+	headings: 72,36,24,18,16,14 px
+	
+	h2,h3 tweaked
+*/
+body, input, textarea {	
+	font-size: 12px;
+	/* IE6: for resizable text, units have to be in ems */
+	_font-size:.75em;
+	font-family: Calibri, Corbel, Frutiger, "Frutiger Linotype", Univers, "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+	font-family: Calibri, Corbel, Frutiger, "Frutiger Linotype", Univers, "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+	font-weight: bold;
+	font-size: 6em;
+	line-height: 1;
+/*	margin-top: 0.6em;*/
+	margin-bottom: 0.4em;
+}
+
+h2 {
+	font-weight: bold;
+	font-size: 3em;
+	line-height: 1;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h3 {
+	font-weight: bold;
+	font-size: 2em;
+	line-height: 1;
+	margin-top: .9em;
+	margin-bottom: .8em;
+}
+
+h4 {
+	font-weight: bold;
+	font-size: 1.5em;
+	line-height: 1;
+	margin-top: 1.4em;
+	margin-bottom: 0.6em;
+}
+
+h5 {
+	font-weight: bold;
+	font-size: 1.3333333333em;
+	line-height: 1.125;
+	margin-top: 1.6875em;
+	margin-bottom: 0.5625em;
+}
+
+h6 {
+	font-weight: bold;
+	font-size: 1.1666666667em;
+	line-height: 1.2857142857;
+	margin-top: 1.9285714286em;
+	margin-bottom: 0.6428571429em;
+}
+
+
+p, ul, ol, li, blockquote, pre, code, label,
+	address, dl, dialog, caption,
+	table, td, th {
+	font-size: 1em;
+	line-height: 1.5;
+	margin-bottom: 1.5em;
+}
+
+caption, br {
+	line-height: 1.5;
+}
+
+a.block {
+	display:block;
+	line-height: 1.5;
+	margin-bottom: 1.5em;
+}
+
+span.amp {
+  font-family: "Goudy Old Style", "Palatino", "Book Antiqua", serif;
+  font-style: italic; 
+  font-size: 110%;
+}
+
+blockquote, dd {
+	padding:0 0 0 2em;
+}
+pre, code, samp, kbd, var {
+	font: mono-space,monospace;
+}
+pre {
+	overflow:auto;
+}
+del {
+	text-decoration: line-through;
+}
+abbr, acronym{
+	text-transform:uppercase;
+	border-bottom:1px dotted #666;
+	letter-spacing:1px;
+}
+abbr[title], acronym[title] {
+	cursor:help;
+}
+small {
+	font-size:.9em;
+}
+sup, sub {
+	font-size:.8em;
+}
+	sup {
+		vertical-align: top;
+	}
+	sub {
+		vertical-align: bottom;
+	}
+em, cite, q {
+	font-style:italic;
+}
+strong {
+	font-weight: bold;
+}
+
+

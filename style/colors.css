@@ -1,0 +1,359 @@
+/* global text */
+html, body, #wrap {
+	color: #fcf2e2;	
+}
+
+	/*page*/
+	html {
+		background-image: url(img/bg-body.jpg);
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		background-position: top center;
+	}
+
+	
+/*headings*/
+h1,h2,h3,h4,h5,h6 {
+	color: #fcf2e2;
+}
+	
+/*links*/
+a {
+	color: #fff;
+	text-decoration: none;
+}
+
+	a:hover {
+		text-decoration: underline;
+	}
+
+	a:visited {
+		color: #fff;
+	}
+
+#homepage h1 {
+	color: #ffe185
+}
+
+#homepage .top h2 {
+	color: #fff;
+}
+
+#services h4 {
+	color: #fcf2e2;
+}
+
+#about a,
+#contact .text a {	
+	background-color: #b1006a
+}
+
+/* name */	
+#logo .name {
+	color: #fcf2e2
+}
+
+#twitter {
+	color: #69003f
+}
+
+	#twitter a {
+		color: #b1006a	
+	}
+
+/*navigation*/
+#nav ul li a {
+	color: #fcf2e2;
+}
+
+	#nav ul li a.hover {
+		color: #fff;
+	}
+	#nav ul li a.active {
+		border-top: 4px solid #fcf2e2;
+		/*color: #fff;*/
+	}
+		
+	#nav ul li a.active span {
+		display: none;
+	}
+	
+	#nav ul li a span {
+		color: #ffe185;
+	}
+	
+/*homepage roundabout project link*/
+#roundabout h3 a {
+	color: #fcf2e2;
+}
+
+	#roundabout h3 a:hover {
+		color: #fff;
+	}
+	
+/*global button (.btn) & pager buttons*/
+#portfolio ul.pager li a,	
+a.btn {
+	color: #fff;
+	background-color: #69003f;
+}
+
+	#portfolio ul.pager li a:hover,
+	a.btn:hover {
+		background-color: #b1006a;
+	}
+	
+	#portfolio ul.pager li a.active,
+	#portfolio ul.nav li a.active {
+		background-color: #2c002e;
+	}
+
+/*portfolio detail*/
+.portfolio-detail .main-image img {
+	outline: 1px solid #fff;
+}
+
+	/*sliding caption background*/
+	.portfolio-detail ul.items li a span.caption,
+	#portfolio ul.items li a span.caption  {
+		background: #2c002e;
+	}
+	
+	/*sliding caption text*/
+	.portfolio-detail ul.items li a span.text,
+	#portfolio ul.items li a span.text  {	
+		color: #fff;
+		text-shadow: 1px 1px 1px #444;
+	}
+	
+/*testimonials*/
+#about .testimonials ul li {
+	border-top: 1px solid #fcf2e2;
+}
+	/*quote*/
+	#about .testimonials blockquote p {
+		color: #fcf2e2;
+	}
+		/*author*/
+		#about .testimonials blockquote p span {
+			color: #b1006a;
+		}
+		
+		#about .testimonials blockquote a {
+			color: #d6dee8;
+			background: none;
+			text-decoration: underline;
+		}
+
+/*button on services page*/
+#services .btn {
+	background-color: #2c002e;
+}
+	#services .btn:hover {
+			background-color: #b1006a;
+		}
+
+/*tooltip baloons*/
+.tooltip {
+	color: #b1006a; 
+}
+	
+	
+/*blog styling*/		
+#blog .post .info {
+	color: #fcf2e2;
+}
+	/*continue reading*/
+	#blog .post .more:hover {
+		background-color: #2c002e;
+		color: #fff;
+	}
+	
+	#blog .featured a {
+		background: none;
+	}
+	
+	#blog .featured .info a {
+		background-color: #69003f;
+	}
+	
+	#blog .featured .author a {
+		background: none;
+	}
+	
+	#blog .author a {
+		text-decoration: underline;
+		background: none;
+	}
+	
+	/*headings*/
+	#blog .post h2 a,
+	#blog .post h3 a {
+		color: #fff;
+		background: none;
+	}
+
+	#blog .post h2 a:hover,
+	#blog .post h3 a:hover {
+		text-decoration: none;
+		border-bottom: 1px solid #fcf2e2;
+	}	
+
+	/*images*/
+	#blog .post img  {
+		border: 1px solid #444;
+	}
+		
+		#blog .post img.full:hover {
+			border: 1px solid #fff;
+		}
+		
+	#blog p a,
+	#blog .more {
+		background-color: #69003f;
+	}	
+	
+	
+	/*previus/next (older/newer) posts*/
+	#blog .prevnext {
+		border-top: 1px dotted #b1006a;
+	}
+	
+		#blog .prevnext a {
+			color: #fff;
+			background-color: #2c002e;
+		}
+		
+		#blog .prevnext a:hover {
+			background-color: #b1006a;
+			
+		}
+	
+/*blog sidebar*/
+#sidebar a {
+	color: #fff;
+	background: none;
+}
+
+	#sidebar a:hover {
+		color: #fcf2e2;
+		text-decoration: underline;
+	}
+
+/*sidebar search form*/
+#searchForm input {
+	color: #ccc;
+	border: 1px solid #b1006a;
+}
+		
+/*comments*/
+#comments .head {			
+	border-top: 1px solid #b1006a;
+	border-bottom: 1px solid #b1006a;
+}
+
+	#comments .comment .text .reply {
+		color: #fff;
+		background-color: #69003f
+	}
+			
+	#comments .comment .text .author {
+		border-bottom: 1px solid #d6dee8;
+	}
+	
+	#comments .comment .text .author a {
+		text-decoration: none;
+		background-color: #2c002e;
+		padding: 2px;
+	}
+	#comments .comment .text .date {
+		color: #aaa;
+	}
+	
+	#blog .block {
+		background: none;
+	}
+	
+	/*post blockquote*/		
+	#blog .post blockquote {
+		background-color: #2c002e
+		}
+	
+	/*post pre*/		
+	#blog .post pre {
+		background-color: #69003f;
+		border: 1px solid #2c002e;
+		border-left: 4px solid #2c002e;
+	}
+	
+	/*table*/
+	table {
+		border-color: #d6dee8;
+	}		
+		table th {
+			background-color: #2c002e;
+			color: #fff;
+		}	
+		table td,
+		table th {
+    		border-color: #d6dee8;
+    	}
+    	
+    	table td {
+    		background-color: #69003f;    		
+    	}
+
+/* forms */
+form label {
+	color: #fff;
+}
+
+	form label em {
+		color: #ea6b48;
+	}
+
+	/*validation error*/
+	form label.error {
+		color: #fcf2e2;
+	}
+		
+	form textarea,
+	form input {
+		background-color: #fcf8f2;
+		border: 1px solid #fcf8f2;
+	}
+	
+		form textarea:focus,
+		form input:focus {			
+			color: #444;
+			border-color: #000;
+			background-color: #ffc;
+		}		
+		
+	form input.submit {
+		color: #fff;
+		border: none;		
+		background-color: #2c002e;
+	}
+	
+	form input.submit:hover {
+		background-color: #b1006a;
+	}
+		
+
+	/* ajaxified form:
+	2 divs for display success or error message */
+	#contactform div.error,
+	#contactform div.success {
+		background-color: #69003f;
+		color: #fff;
+	}
+		#contactform div.error {
+			background-color: #ea6b48;
+		}
+		
+
+
+
+
+
